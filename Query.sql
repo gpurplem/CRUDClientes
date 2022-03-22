@@ -1,5 +1,5 @@
-create database ProvaNewm;
-use ProvaNewm;
+create database crud;
+use crud;
 
 create table TBPessoa
 (
