@@ -1,0 +1,74 @@
+body {
+    background-color: rgba(100, 20, 150, 0.7);
+}
+
+#container-1,  #container-2{
+    /*Viewport muda o tamanho conforme o tamanho da página*/
+    height:90vh;
+    width: 90vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-1, #cadastros {
+    border:2px solid purple;
+    background-color: rgba(250, 190, 250, 0.2);
+    border-radius: 15px;
+    padding: 2%;
+    max-width: auto;
+    margin:auto;
+    height:auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+    font-family: "monaco", monospace;
+    color:aliceblue;
+    font-weight: bold;
+}
+
+input[type=submit], [type=button] {
+    background-color: #0f7550;
+    border-radius:15px;
+    color: white;
+    padding: 10px;
+}
+
+input[type=submit]:hover, input[type=button]:hover {
+    background-color: #7ef0c6;
+}
+
+
+input[type=text], textarea {
+    background-color: #750f5f3f;
+    border-radius:15px;
+    color: white;
+    font-weight: bold;
+}
+
+input[type=text]::placeholder {
+    color: rgb(199, 199, 199);
+    font-weight: bold;
+}
+
+textarea {
+    vertical-align:top;
+}
+
+.valorInvalido {
+    background-color: red!important;
+}
+
+.titulo {
+    font-family: "monaco", monospace;
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
