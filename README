@@ -3,7 +3,7 @@ Instruções para acessar as páginas.
 1) Abrir o XAMPP Control Panel v3.3.0 e iniciar os módulos Apache e MySQL.
 2) Descompactar arquivo .zip na pasta "htdocs" dentro do diretório do XAMPP.
 3) Digitar no navegador Chrome: http://localhost/phpmyadmin/
-4) Clicar em "Novo" e nomear o novo banco de "provanewm".
-5) Clicar no banco "provanewm", clicar em "importar", "escolher arquivo", selecionar "provanewm.sql" dentro da pasta "htdocs" e clicar em executar.
+4) Clicar em "Novo" e nomear o novo banco de "crud".
+5) Clicar no banco "crud", clicar em "importar", "escolher arquivo", selecionar "query.sql" dentro da pasta "htdocs" e clicar em executar.
 6) Digitar: http://localhost/cadastrar/
 7) Estar conectado à Internet para que funcione o Bootstrap e AJAX, que foram integrados usando CDN (content delivery network).
